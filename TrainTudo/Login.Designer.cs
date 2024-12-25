@@ -38,6 +38,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             panel1 = new Panel();
+            label2 = new Label();
             pictureBox1 = new PictureBox();
             label9 = new Label();
             loginBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -49,7 +50,6 @@
             label4 = new Label();
             label11 = new Label();
             guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(components);
-            label2 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -77,6 +77,17 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(716, 521);
             panel1.TabIndex = 0;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("맑은 고딕", 11F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            label2.ForeColor = Color.Blue;
+            label2.Location = new Point(164, 140);
+            label2.Name = "label2";
+            label2.Size = new Size(353, 30);
+            label2.TabIndex = 13;
+            label2.Text = "아이디: Admin , 비밀번호: Admin";
             // 
             // pictureBox1
             // 
@@ -182,6 +193,7 @@
             label3.Size = new Size(27, 30);
             label3.TabIndex = 2;
             label3.Text = "X";
+            label3.Click += label3_Click;
             // 
             // ResetBtn
             // 
@@ -221,17 +233,6 @@
             // 
             guna2Elipse2.BorderRadius = 15;
             guna2Elipse2.TargetControl = panel1;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("맑은 고딕", 11F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label2.ForeColor = Color.Blue;
-            label2.Location = new Point(164, 140);
-            label2.Name = "label2";
-            label2.Size = new Size(353, 30);
-            label2.TabIndex = 13;
-            label2.Text = "아이디: Admin , 비밀번호: Admin";
             // 
             // Login
             // 

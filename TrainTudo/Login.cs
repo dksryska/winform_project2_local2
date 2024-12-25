@@ -29,11 +29,11 @@ namespace TrainTudo
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            if(UNameTb.Text == "" || PasswordTb.Text == "")
+            if (UNameTb.Text == "" || PasswordTb.Text == "")
             {
                 MessageBox.Show("Missing Data!!!");
             }
-            else if(UNameTb.Text == "Admin" && PasswordTb.Text == "Admin")
+            else if (UNameTb.Text == "Admin" && PasswordTb.Text == "Admin")
             {
                 Train Obj = new Train();  // Train.cs를 생성함
                 Obj.Show();               //Train.cs을 보여줌
@@ -61,6 +61,11 @@ namespace TrainTudo
         {
             UNameTb.Text = "";
             PasswordTb.Text = "";
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); //이걸 안넣어서 추가 함.
         }
     }
 }
