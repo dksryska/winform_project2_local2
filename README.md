@@ -56,3 +56,12 @@ CREATE TABLE [dbo].[BookingTbl] (
     CONSTRAINT [FK4] FOREIGN KEY ([Passenger]) REFERENCES [dbo].[PassengerTbl] ([PCode]),
     CONSTRAINT [FK3] FOREIGN KEY ([Travel]) REFERENCES [dbo].[TravelTbl] ([TrCode])
 );
+```
+# 기차와 승무원 정보 입력 프로그램
+기차 정보 or 승무원 정보를 단순 입력 후 저장합니다. <br/>
+그리고 내용을 수정하거나 삭제를 하는 프로그램입니다.
+
+# 실행방법
+1.로그인을 합니다.(ID: Admin / PW: Admin) <br/>
+2."기차 정보 입력"에서 내용을 입력합니다. <br/>
+3."승무원 정보 입력"에서 내용을 입력합니다.
