@@ -1,4 +1,4 @@
-# Query문 VS의 SQL Server를 사용하였습니다.
+# Query문 VS의 Local DB를 사용하였습니다.
 ```sql
 CREATE TABLE [dbo].[TravelTbl] (
     [TrCode]      INT            IDENTITY (1, 1000) NOT NULL,
